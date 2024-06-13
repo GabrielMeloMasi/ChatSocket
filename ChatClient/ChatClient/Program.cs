@@ -1,44 +1,49 @@
-﻿using System;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading;
+﻿using System; // Importa o namespace System para acesso a classes básicas do C#
+using System.Net.Sockets; // Importa o namespace para operações de soquete de rede
+using System.Text; // Importa o namespace para manipulação de strings
+using System.Threading; // Importa o namespace para suporte a multithreading
 
-class Client
+class Client // Declaração de uma classe chamada Client
 {
-    private static TcpClient client;
-    private static NetworkStream stream;
+    private static TcpClient client; // Declaração do cliente TCP
+    private static NetworkStream stream; // Declaração do fluxo de rede associado ao cliente
 
-    static void Main(string[] args)
+    static void Main(string[] args) // Método principal do cliente
     {
-        string serverIp = "192.168.1.5"; // Substitua pelo IP do servidor
-        int port = 12345;
+        string serverIp = "10.199.65.76"; // Endereço IP do servidor
+        int port = 12345; // Porta à qual o cliente irá se conectar
 
-        client = new TcpClient();
-        client.Connect(serverIp, port);
-        Console.WriteLine("Conectado ao servidor");
+        client = new TcpClient(); // Criação de um novo objeto TcpClient
+        client.Connect(serverIp, port); // Conecta o cliente ao servidor utilizando o IP e a porta especificados
+        Console.WriteLine("Conectado ao servidor"); // Imprime uma mensagem informando que o cliente se conectou ao servidor
 
-        stream = client.GetStream();
+        Console.WriteLine("Digite o Nome do Cliente..: "); // Solicita ao usuário que digite o nome do cliente
+        string clientName = Console.ReadLine(); // Lê o nome do cliente fornecido pelo usuário
 
-        Thread receiveThread = new Thread(ReceiveMessages);
-        receiveThread.Start();
+        stream = client.GetStream(); // Obtém o fluxo de rede associado ao cliente
 
-        while (true)
+        Thread receiveThread = new Thread(ReceiveMessages); // Cria uma nova thread para receber mensagens do servidor
+        receiveThread.Start(); // Inicia a thread
+
+        while (true) // Loop infinito para enviar mensagens para o servidor
         {
-            string message = Console.ReadLine();
-            byte[] buffer = Encoding.UTF8.GetBytes(message);
-            stream.Write(buffer, 0, buffer.Length);
+            string message = Console.ReadLine(); // Lê a mensagem digitada pelo usuário
+            string fullMessage = $"{clientName}: {message}"; // Formata a mensagem incluindo o nome do cliente
+            byte[] bufferMessage = Encoding.UTF8.GetBytes(fullMessage); // Converte a mensagem em bytes
+
+            stream.Write(bufferMessage, 0, bufferMessage.Length); // Envia a mensagem para o servidor
         }
     }
 
-    private static void ReceiveMessages()
+    private static void ReceiveMessages() // Método para receber mensagens do servidor
     {
-        byte[] buffer = new byte[1024];
-        int byteCount;
+        byte[] buffer = new byte[1024]; // Buffer para armazenar os dados recebidos do servidor
+        int byteCount; // Número de bytes recebidos
 
-        while ((byteCount = stream.Read(buffer, 0, buffer.Length)) != 0)
+        while ((byteCount = stream.Read(buffer, 0, buffer.Length)) != 0) // Loop para ler dados do servidor enquanto houver dados disponíveis
         {
-            string message = Encoding.UTF8.GetString(buffer, 0, byteCount);
-            Console.WriteLine("Mensagem recebida: " + message);
+            string message = Encoding.UTF8.GetString(buffer, 0, byteCount); // Converte os dados recebidos em uma string
+            Console.WriteLine(message); // Imprime a mensagem recebida no console do cliente
         }
     }
 }

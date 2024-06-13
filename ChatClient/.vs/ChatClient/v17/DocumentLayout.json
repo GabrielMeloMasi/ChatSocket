@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2568455\\Desktop\\Chat Socket\\ChatClient\\",
+  "WorkspaceRootPath": "C:\\Users\\2568455\\Desktop\\Projeto Vale\\projects\\projetos-pessoais\\ChatSocket\\ChatClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8516D46-43E5-4F8D-BDAA-3EB22485A0BC}|ChatClient\\ChatClient.csproj|c:\\users\\2568455\\desktop\\chat socket\\chatclient\\chatclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8516D46-43E5-4F8D-BDAA-3EB22485A0BC}|ChatClient\\ChatClient.csproj|c:\\users\\2568455\\desktop\\projeto vale\\projects\\projetos-pessoais\\chatsocket\\chatclient\\chatclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8516D46-43E5-4F8D-BDAA-3EB22485A0BC}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Chat Socket\\ChatClient\\ChatClient\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projeto Vale\\projects\\projetos-pessoais\\ChatSocket\\ChatClient\\ChatClient\\Program.cs",
               "RelativeDocumentMoniker": "ChatClient\\Program.cs",
-              "ToolTip": "C:\\Users\\2568455\\Desktop\\Chat Socket\\ChatClient\\ChatClient\\Program.cs",
+              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projeto Vale\\projects\\projetos-pessoais\\ChatSocket\\ChatClient\\ChatClient\\Program.cs",
               "RelativeToolTip": "ChatClient\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAvAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwDEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T14:37:05.775Z",
               "EditorCaption": ""

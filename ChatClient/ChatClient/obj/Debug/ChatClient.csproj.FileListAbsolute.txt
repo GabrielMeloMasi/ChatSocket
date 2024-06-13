@@ -6,3 +6,10 @@ C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\obj\Debug\ChatClient.cs
 C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.CoreCompileInputs.cache
 C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\obj\Debug\ChatClient.exe
 C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\obj\Debug\ChatClient.pdb
+C:\Users\2568455\Desktop\Projeto Vale\projects\projetos-pessoais\ChatSocket\ChatClient\ChatClient\bin\Debug\ChatClient.exe.config
+C:\Users\2568455\Desktop\Projeto Vale\projects\projetos-pessoais\ChatSocket\ChatClient\ChatClient\bin\Debug\ChatClient.exe
+C:\Users\2568455\Desktop\Projeto Vale\projects\projetos-pessoais\ChatSocket\ChatClient\ChatClient\bin\Debug\ChatClient.pdb
+C:\Users\2568455\Desktop\Projeto Vale\projects\projetos-pessoais\ChatSocket\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.AssemblyReference.cache
+C:\Users\2568455\Desktop\Projeto Vale\projects\projetos-pessoais\ChatSocket\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.CoreCompileInputs.cache
+C:\Users\2568455\Desktop\Projeto Vale\projects\projetos-pessoais\ChatSocket\ChatClient\ChatClient\obj\Debug\ChatClient.exe
+C:\Users\2568455\Desktop\Projeto Vale\projects\projetos-pessoais\ChatSocket\ChatClient\ChatClient\obj\Debug\ChatClient.pdb
