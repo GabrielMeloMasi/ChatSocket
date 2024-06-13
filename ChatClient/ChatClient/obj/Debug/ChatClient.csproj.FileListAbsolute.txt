@@ -1,0 +1,8 @@
+C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\bin\Debug\ChatClient.exe.config
+C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\bin\Debug\ChatClient.exe
+C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\bin\Debug\ChatClient.pdb
+C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.AssemblyReference.cache
+C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.CoreCompileInputs.cache
+C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\obj\Debug\ChatClient.exe
+C:\Users\masig\Desktop\Chat Socket\ChatClient\ChatClient\obj\Debug\ChatClient.pdb
